@@ -125,7 +125,7 @@ export default class extends Module {
 
 		if (mostVotedChoice.votes === 0) {
 			this.ai.post({ // TODO: Extract serif
-				text: '投票はありませんでした',
+				text: '投票はありませんでしたにゃ～',
 				renoteId: noteId,
 			});
 		} else if (mostVotedChoices.length === 1) {
