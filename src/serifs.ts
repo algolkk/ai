@@ -179,52 +179,52 @@ export default {
 		/**
 		 * 対局開始
 		 */
-		started: (name, strength) => `${name}さんとの対局を始めさせていただきますにゃ！（強さ${strength}ですにゃ）`,
+		started: (name, strength) => `${name}との対局を始めさせていただきますにゃ！（強さ${strength}ですにゃ）`,
 
 		/**
 		 * 接待開始
 		 */
-		startedSettai: name => `(${name}さんのお相手をさせていただきますにゃ～)`,
+		startedSettai: name => `(${name}のお相手をさせていただきますにゃ～)`,
 
 		/**
 		 * 勝ったとき
 		 */
-		iWon: name => `${name}さんとの対局で勝たせていただきましたにゃ♪`,
+		iWon: name => `${name}との対局で勝たせていただきましたにゃ♪`,
 
 		/**
 		 * 接待のつもりが勝ってしまったとき
 		 */
-		iWonButSettai: name => `(${name}さんのお相手をしていたら、うっかり勝ってしまいましたにゃ...)`,
+		iWonButSettai: name => `(${name}のお相手をしていたら、うっかり勝ってしまいましたにゃ...)`,
 
 		/**
 		 * 負けたとき
 		 */
-		iLose: name => `${name}さんとの対局で負けてしまいましたにゃ...`,
+		iLose: name => `${name}との対局で負けてしまいましたにゃ...`,
 
 		/**
 		 * 接待で負けてあげたとき
 		 */
-		iLoseButSettai: name => `(${name}さんに楽しんでいただけたようで嬉しいですにゃ♪)`,
+		iLoseButSettai: name => `(${name}に楽しんでいただけたようで嬉しいですにゃ♪)`,
 
 		/**
 		 * 引き分けたとき
 		 */
-		drawn: name => `${name}さんとの対局は引き分けとなりましたにゃ～`,
+		drawn: name => `${name}との対局は引き分けとなりましたにゃ～`,
 
 		/**
 		 * 接待で引き分けたとき
 		 */
-		drawnSettai: name => `(${name}さんとの対局、いい勝負になりましたにゃ...)`,
+		drawnSettai: name => `(${name}との対局、いい勝負になりましたにゃ...)`,
 
 		/**
 		 * 相手が投了したとき
 		 */
-		youSurrendered: name => `${name}さんが対局を終了されましたにゃ...`,
+		youSurrendered: name => `${name}が対局を終了されましたにゃ...`,
 
 		/**
 		 * 接待してたら相手が投了したとき
 		 */
-		settaiButYouSurrendered: name => `(${name}さんのお相手をしていたら、途中で終わってしまいましたにゃ... 申し訳にゃいですにゃ...)`,
+		settaiButYouSurrendered: name => `(${name}のお相手をしていたら、途中で終わってしまいましたにゃ... 申し訳にゃいですにゃ...)`,
 },
 
 	/**
@@ -401,7 +401,7 @@ kazutori: {
 			'ごろごろにゃ～...',
 			'にゃ～、少し眠いですにゃ',
 			'お手伝いさせていただきますにゃ！',
-			'(。´･ω･)にゃ？',
+			'にゃにゃ...？',
 			'ふにゃ～',
 			'お茶の時間ですにゃ♪',
 			'お昼寝の時間ですかにゃ？',
