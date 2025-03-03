@@ -24,7 +24,7 @@ export default class extends Module {
 	private async onNote(note: Note) {
 		if (note.reply != null) return;
 		if (note.text == null) return;
-		if (note.text.includes('@')) return; // (自分または他人問わず)メンションっぽかったらreject
+		if (note.text.includes('@') || note.text.includes('#')) return; // ハッシュタグまたは(自分または他人問わず)メンションっぽかったらreject
 
 		const react = async (reaction: string, immediate = false) => {
 			if (!immediate) {
