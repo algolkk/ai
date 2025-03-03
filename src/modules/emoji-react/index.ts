@@ -71,6 +71,6 @@ export default class extends Module {
 		// if (includes(note.text, ['ご飯', 'ごはん'])) return react('🍚');
 		if (includes(note.text, ['おなかすいた', 'onaka_suita_si'])) return react('🍚');
 
-		if (includes(note.text, ['Rikki'])) return react('🐱');
+		// if (includes(note.text, ['Rikki'])) return react('🐱');
 	}
 }
